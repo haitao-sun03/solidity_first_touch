@@ -12,7 +12,9 @@ interface IERC721Receiver {
     ) external  returns (bytes4);
 }
 
-
+/**
+* 将NFT（nftAddr + tokenId） list至合约，买家再进行purchase
+*/
 contract NFTSwap  is IERC721Receiver {
     event List(address owner, address nftAddr,uint256 tokenId,uint256 price);
     event Revoke(address owner,address nftAddr,uint256 tokenId);

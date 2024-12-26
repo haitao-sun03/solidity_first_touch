@@ -372,6 +372,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "同比例将ETH兑换为WETH,旨在方便对WETH进行跨链等操作",
 			"version": 1
 		}
 	},
@@ -400,11 +401,11 @@
 			]
 		},
 		"contracts/WETH.sol": {
-			"keccak256": "0xf6896cbc3b8169535ec8a2d3f8686ee35c458f35f96b5d6607672bf437b69604",
+			"keccak256": "0x79248d41cb9a6de9f794638c11e5b0e9e8459f88ee6b119229bc225f22ea2145",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cbb98b2a7f82f8af6e7b887f3830ab4c80561d08fc8393008eee377ce1ce33e2",
-				"dweb:/ipfs/QmPZM8dDAQMzig7vYxMs8RxiEGsDbKSb9fUT8rE7TCBkSE"
+				"bzz-raw://d35e82cf4b020696ac5ebc767415f39038bf8e927af98e88efb585d124ad2fb5",
+				"dweb:/ipfs/QmY4co8ajskFtUjikSs6ucBgSWfGHAaM3RvqTQBUJXrDW8"
 			]
 		}
 	},

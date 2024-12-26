@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+/**
+* 受益人份额与分账，提前约定在合约中管理
+*/
 contract PaymentSplit {
     // 总份额数
     uint256 public totalShares;

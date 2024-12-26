@@ -187,6 +187,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "受益人份额与分账，提前约定在合约中管理",
 			"version": 1
 		}
 	},
@@ -207,11 +208,11 @@
 	},
 	"sources": {
 		"contracts/PaymentSplit.sol": {
-			"keccak256": "0x6a6ab974398705de43e9cd92d034e23298059756589b7d05c7e95d023e6438b9",
+			"keccak256": "0x21987d91d8cf8c6d14abbbd63a96ff628e18485c76afa33a6df825d7f4a5549a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a78d5e7460190cbb713c692dc15fb771f138b992cbad3c21359be22639385007",
-				"dweb:/ipfs/QmUF5SyAtX2Pwdeny8UGeuqUR6BPv2XbXtvXimYMrJ7Fxr"
+				"bzz-raw://2aa7db589b8909c6343cc23f5c0c1547a3b248d689e2e606e72ec7243cebfd70",
+				"dweb:/ipfs/QmPhGzmch9ZLchyDJRmb8g7qPqQS2Eg1heedQNUZaScwoo"
 			]
 		}
 	},

@@ -4,7 +4,10 @@ import {ERC721} from "./ERC721.sol";
 import {MerkleProof} from "../library/MerkleProof.sol";
 
 
-
+/**
+* 即链上数据仅存白名单构成的merkle tree的根
+* 通过传入某account与链下获得的merkle proof路径来判断该account是否在白名单中
+*/
 contract MerkleTree is ERC721 {
     bytes32 immutable public root; // Merkle树的根
     mapping(address => bool) public mintedAddress;   // 记录已经mint的地址

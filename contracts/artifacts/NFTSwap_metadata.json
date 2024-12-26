@@ -256,6 +256,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "将NFT（nftAddr + tokenId） list至合约，买家再进行purchase",
 			"version": 1
 		}
 	},
@@ -284,11 +285,11 @@
 			]
 		},
 		"contracts/NFTSwap.sol": {
-			"keccak256": "0x726fea2a88b11de5a31b88a7e5d71fa0b71156f8dd8ac2c2ffd754ab526d5889",
+			"keccak256": "0xefa916f23ebe7e8b596e2847b9cf18dfe821bed01b03b1a4e853258d55ec2fb2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f1597015a95289319a584f15696d9d7a8795c44248b3c161753662b42da9ab6",
-				"dweb:/ipfs/QmWedsqJTM1FVQtm5gWdyzcT7E7iv3nR23MJ54a84jmkrF"
+				"bzz-raw://80ea9d8d18761e84fe5421fe38e9305a7026216ee88b9b373cbbc0bbcd129441",
+				"dweb:/ipfs/QmfEMPxHxq1NmEmnYDAxDNRMoP1YLLJNnh7SsfnoUGtcq8"
 			]
 		}
 	},

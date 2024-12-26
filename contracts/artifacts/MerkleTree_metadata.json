@@ -396,6 +396,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "即链上数据仅存白名单构成的merkle tree的根 通过传入某account与链下获得的merkle proof路径来判断该account是否在白名单中",
 			"version": 1
 		}
 	},
@@ -424,11 +425,11 @@
 			]
 		},
 		"contracts/MerkleTree.sol": {
-			"keccak256": "0xf74146bc55222ac459f2f4a5ea95123216dc13ac4bc31ccfd308a8975ebe72b9",
+			"keccak256": "0xf7e19b2a27a297050e99548e6add794a12f7e4ed519cbec195c360a43b5ff253",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1fefed008d4d7d4818b5c5ab58474161c14f811edc90fcd4f23114ccbcdabd4f",
-				"dweb:/ipfs/QmaZBhA8bXW7hoh4iJ9MzSo23VSzWwssJT47bThZXCWRKy"
+				"bzz-raw://ace264c6dd12b734a0e1daca626d00e87b218189be072dc8ea3ade804227c4d3",
+				"dweb:/ipfs/QmSRPaHpMMyYW3UD3VHJRzujyBkVgLhMjm8MtXPJVJNTJ8"
 			]
 		},
 		"library/MerkleProof.sol": {

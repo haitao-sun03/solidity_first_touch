@@ -112,6 +112,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "通过该合约可将某账户下的token与eth转移至指定账户中",
 			"version": 1
 		}
 	},
@@ -132,19 +133,19 @@
 	},
 	"sources": {
 		"contracts/Airdrop.sol": {
-			"keccak256": "0x26f8d46710d0e32cd063b9da763c9a58e425e7245f0997e918b5fcff448d986a",
+			"keccak256": "0xa55dd6b18fcf5f85d11fa3898bda2909757940945f1af473fd1522f9d151153b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a3b827751d976473f248763df9e6d1c49cef0acdaa91202ea287341c41f4c4af",
-				"dweb:/ipfs/QmTEJEmiPFYYFW7CW9E47MV4ZuzevUmaBUdeiL1d35QpjB"
+				"bzz-raw://af02ff56c57be075b5c1638649763d631a760a05ecf808da00ce6eac9da21856",
+				"dweb:/ipfs/QmaPaCFBqG4RJE1pDD1ixMeakV6zh32VAJhem4cW9KTrz1"
 			]
 		},
 		"contracts/ERC20.sol": {
-			"keccak256": "0x639826a9cf653771a1d3394ffcc619c5f225caab69ad60a711f32392bb288f84",
+			"keccak256": "0x396ecce3f6d1f722a68fe46e5da1547ff866be1e518c2a43a084dcd1c5ca1c56",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://beccfe30520021c12d3d29efa7f280ce4417e4b12ec74d472a6f8e992d2b6b34",
-				"dweb:/ipfs/QmX621f496yt6Ft7Bi9cj8RsMng4KcXEiQYXysrQBtB4m2"
+				"bzz-raw://6fc5f139b754cd8b30c4033040a878c5f14474ecd30b1449ec6085beb1751558",
+				"dweb:/ipfs/QmfYvQTfwS1n29ry4vEn5Y9By7CvaRDUC2eFFQUfGw6FqX"
 			]
 		}
 	},

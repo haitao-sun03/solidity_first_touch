@@ -2,6 +2,9 @@
 pragma solidity ^0.8.17;
 import {IERC20} from "./ERC20.sol";
 
+/**
+* 通过该合约可将某账户下的token与eth转移至指定账户中
+*/
 contract Airdrop {
     address public tokenAddr;
 

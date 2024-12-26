@@ -82,10 +82,11 @@
 	},
 	"sources": {
 		"contracts/SelfDestruct.sol": {
-			"keccak256": "0xfa418be9b2f543662447d42a49bd8fb6347be0b28a04a124aa8f9f2c4c549965",
+			"keccak256": "0x728164777c356237bed240015aeac9847ec0bad56ce51cc490101790ad66c89e",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://abca0b0ed02a692800cbc0b5b3c8ee7ed76416e581add3d8aa977defca1bbaa3",
-				"dweb:/ipfs/QmXcE4T5e6TTXeuUoBrHtBRGarNkXzH8mkHJUZb7me5m2j"
+				"bzz-raw://3794067dcb666eb8dc0992fe69b5653521af58a68341399ec86f50694b5adf0b",
+				"dweb:/ipfs/QmZr2Eamyruv1LT7c4vQyCtVjwwAQXN7dm7NGbfsfLbQ46"
 			]
 		}
 	},
