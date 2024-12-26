@@ -27,10 +27,10 @@ contract ERC20 is IERC20 {
     string public symbol;
     uint8 public decimals;
 
-    constructor() {
-        totalSupply = 1000;
-        symbol = "haitao";
-        decimals = 3;
+    constructor(uint256 _totalSupply,string memory _symbol,uint8 _decimals) {
+        totalSupply = _totalSupply;
+        symbol = _symbol;
+        decimals = _decimals;
     }
 
 
@@ -54,20 +54,33 @@ contract ERC20 is IERC20 {
     // 因此在pledge之前,需要用所有可能参与众筹的外部账户approve一下CrowdFund合约账户
     // 代表到时候合约账户的逻辑中,可以调用transferFrom,从sender转账给recipient
     function transferFrom(address sender,address recipient,uint amount) external returns (bool) {
-        allowance[sender][recipient] -= amount;
+        // 调用transferFrom方法的是一个合约，通过该合约从sender转token给recipient，减少的额度是从sender给转账合约的额度
+        allowance[sender][msg.sender] -= amount;
         balanceOf[sender] -= amount;
         balanceOf[recipient] += amount;
 
         return true;
     }
 
-    function mint(uint amount) external {
+    function _mint(address to,uint256 amount) public {
+        balanceOf[to] += amount;
+        totalSupply += amount;
+        emit Transfer(address(0), to, amount);
+    }
+
+    function mint(uint amount) public {
         balanceOf[msg.sender] += amount;
         totalSupply += amount;
         emit Transfer(address(0), msg.sender, amount);
     }
 
-    function burn(uint amount) external {
+    function _burn(address from,uint256 amount) public {
+        balanceOf[from] -= amount;
+        totalSupply -= amount;
+         emit Transfer(from ,address(0) , amount);
+    }
+
+    function burn(uint amount) public {
         balanceOf[msg.sender] -= amount;
         totalSupply -= amount;
         emit Transfer(msg.sender,address(0) , amount);

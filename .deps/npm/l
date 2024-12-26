@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.2.
+ * Original file: /npm/l@0.6.0/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+"use strict";const Line=require("./src/Line");function wrapper(r){arguments.length>1?r=Array.from(arguments):Array.isArray(r)||(r=[r]);var e=new Line(r);return function(){return e.execute.apply(e,arguments)}}module.exports=wrapper,module.exports.Line=Line;
+//# sourceMappingURL=/sm/496e10f09d77ae9100fb6ca0912e2831c3f3c936592708e137fcfb3a236569a6.map

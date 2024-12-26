@@ -228,7 +228,7 @@ contract ERC721 is IERC721 {
         safeTransferFrom(from, to, tokenId, "");
     }
 
-    function mint(address to, uint tokenId) external {
+    function mint(address to, uint tokenId) public {
         require(to != address(0), "mint to zero address");
         require(_owners[tokenId] == address(0), "token already minted");
 

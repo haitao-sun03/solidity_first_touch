@@ -19,13 +19,7 @@
 				"type": "event"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "fun",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"name": "getSelector",
 				"outputs": [
 					{
@@ -97,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/Selector.sol": {
-			"keccak256": "0xa5576802306573f8f7645d7e4c1bfd250cc4c961e9c759dda84a1ed4762e6ce8",
+			"keccak256": "0x4de9ba3f4a388343b6ccdfa82d959aee0756223b99f12215dbbf1d1d55e8b5d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://325e146911aa7397ab4547c18c33e63ef0f60dab8ff09902af647af73c76450e",
-				"dweb:/ipfs/QmXB7WpjaSeUZWkwrECV9nPgQRsVndqcfuFz1ZdVNJNrPA"
+				"bzz-raw://56e9cc3948053985ea96ec5d3c16fd91fb5a41b6b64f29bf3b740fc49d874ebb",
+				"dweb:/ipfs/Qmc4kLeaagghB76K6wrMFDVKmcy8QsefcP9cher7Pu9psR"
 			]
 		}
 	},
